@@ -1,15 +1,1 @@
-{
-  "name": "article-preview-component",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.2",
-    "vite": "^4.3.9"
-  }
-}
+{"name":"article-preview-component","private":true,"version":"0.0.0","type":"module","scripts":{"dev":"vite","build":"tsc && vite build","preview":"vite preview"},"devDependencies":{"typescript":"^5.0.2","vite":"^4.3.9","@unocss/preset-web-fonts":"^0.53.3","@unocss/preset-wind":"^0.53.3","@unocss/reset":"^0.53.3","@unocss/transformer-variant-group":"^0.53.3","unocss":"^0.53.3"}}
