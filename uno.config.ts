@@ -4,6 +4,7 @@ import {
   presetWind,
   presetAttributify,
 } from "unocss";
+import transformerVariantGroup from "@unocss/transformer-variant-group";
 import presetClark from "./presetClark";
 
 export default defineConfig({
@@ -16,6 +17,7 @@ export default defineConfig({
     presetAttributify(),
     presetClark(),
   ],
+  transformers: [transformerVariantGroup()],
   layers: {
     presetClark: 3,
   },
