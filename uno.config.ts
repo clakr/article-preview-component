@@ -46,6 +46,13 @@ export default defineConfig({
       "rounded-image",
       { "border-top-left-radius": "1rem", "border-bottom-left-radius": "1rem" },
     ],
+    [
+      "rounded-popover",
+      {
+        "border-bottom-left-radius": "1rem",
+        "border-bottom-right-radius": "1rem",
+      },
+    ],
     ["grid-cols-card", { "grid-template-columns": "28.5rem 1fr" }],
   ],
 });

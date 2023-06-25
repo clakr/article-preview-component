@@ -26,6 +26,5 @@ function changeTextContent(element: HTMLTitleElement | Element | null) {
 
     shareBtn.classList.add("bg-east-bay");
     shareBtn.querySelector("svg")?.classList.remove("fill-east-bay");
-    shareBtn.querySelector("svg")?.classList.add("fill-alice-blue");
   });
 })();
