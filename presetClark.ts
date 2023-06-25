@@ -1,8 +1,8 @@
-import { Preset } from 'unocss';
+import { Preset } from "unocss";
 
 export default function presetClark(): Preset {
   return {
-    name: 'presetClark',
+    name: "presetClark",
     theme: {
       breakpoints: {
         tablet: "768px",
@@ -137,6 +137,12 @@ export default function presetClark(): Preset {
           "column-gap": `${value}rem`,
         }),
       ],
-    ]
-  }
+      [
+        /^left-([\d.-]+)$/,
+        ([, value]) => ({
+          left: `${value}rem`,
+        }),
+      ],
+    ],
+  };
 }
